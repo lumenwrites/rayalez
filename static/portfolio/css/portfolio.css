@@ -110,11 +110,12 @@ header h1 {
 #skills {
     background-color: #282f30;
     padding: 40px;
-
     background-image: url("/static/portfolio/img/skills-bg.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
+    height: 140px;
+    padding: 10px;    
 }
 #main-skills li {
     color: #ff6600;
@@ -124,6 +125,22 @@ header h1 {
     font-weight: 200;
     line-height: 28px;
 }
+
+table, tr, tr.alt,tr:nth-of-type(even) {
+    background:none!important;
+    border:none;
+}
+#main-skills td {
+    color: #ff6600;
+    list-style-type:none;
+    /*text-transform: uppercase;*/
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 28px;
+    padding:0px;
+}
+
+
 #other-skills {
     padding: 0 20px;
 }
@@ -195,7 +212,7 @@ header h1 {
 }
 #description {
     /*padding: 10px 40px 20px 30px;    */
-    padding: 40px;
+    padding: 20px 40px;
     text-align: center;
     margin: auto;
     width: 640px;    
@@ -247,6 +264,10 @@ header h1 {
     margin: 16px;
 }
 
+
+#about p, #about a {
+    font-size:16px;
+}
 #about a {
     color: #ff6600;
 }
