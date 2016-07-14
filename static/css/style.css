@@ -112,17 +112,36 @@ article {
     box-shadow: 0 1px 4px rgba(0,0,0,.04);
     border: 1px solid rgba(0,0,0,.09);
     border-radius: 3px;
+
+    width: calc(50% - 20px);
+    float: left;
+    margin-right: 20px;
+    padding: 0;
 }
 
+.screenshot {
+    max-height: 320px;
+    overflow:hidden;
+}
 .description {
     float:left;
     width: calc(100% - 320px);
+
+    width: 100%;
+    padding: 20px;
+    height: 320px;
 }
 
 article img {
     float:right;
     width: 280px;
     margin: -20px;
+
+
+    float:left;
+    width: calc(100% + 40px);
+    margin: 0px;
+    
 }
 
 #writing article img {
