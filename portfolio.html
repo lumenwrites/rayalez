@@ -1,380 +1,317 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Ray Alez Portfolio</title>
+    <title>Ray Alez Portfolio</title>
 
-	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">    
-    <meta property="og:image" content="http://digital-mind.co/media/logo2.png" />
+    <meta charset="utf-8">
 
-    <link rel="stylesheet" href="/static/portfolio/css/foundation.css" />
-    <link rel="stylesheet" href="/static/portfolio/css/portfolio.css" />    
+    <!-- jQuery -->
+    <script src="/static/js/vendor/jquery.js" type="text/javascript"></script>
 
-     <!-- <script src="http://code.jquery.com/jquery-latest.min.js"></script> -->
-     <script src="/static/portfolio/js/jquery.min.js"></script>   
+    <!-- Foundation -->
+    <script src="/static/js/vendor/foundation.min.js" type="text/javascript"></script>
+    <!-- Foundation css -->
+    <link rel="stylesheet" href="/static/css/foundation.css"/static/>
 
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 
-     <!-- CAROUSEL -->
-     <link rel="stylesheet" href="/static/portfolio/js/carousel/css/rcarousel.css" />
+    <!-- Style -->
+    <link rel="stylesheet" href="/static/css/style.css">
 
- 
+    <!-- Meta -->
+    <meta property="og:image" content="/static/img/signature.png">
+    <meta property="og:description" content="Ray Alez Portfolio - Django Web Developer.">
 </head>
-<body>
-  
-  
-<header>
-<div id="header">
-	<div class="row" id="top-call-to-action">
-	    <div class="large-2 columns" id="title">
-			 <h1>Ray Alez</h1>
-		 </div>
-		<div class="large-10 columns">	 
-			 <nav id="main-nav">
-			   <ul>
-			     <li><a class="inner-link" href="/">Home</a></li>
-			     <!-- <li><a class="inner-link" href="/about">About</a></li> -->
-			     <!-- <li><a class="inner-link" href="/portfolio">Portfolio</a></li>		 -->	     			     			     
-			 	  <!-- <li><a class="home-link" href="#">Home</a></li> -->
-			 	  <!-- <li><a class="inner-link" href="#skills">Skills</a></li> -->
 
-			 	  <!-- <li><a class="inner-link" href="#about">About</a></li> -->
-			 	  <!-- <li><a class="inner-link" href="#projects">Projects</a></li> -->
-			 	  <!-- <li><a class="inner-link" href="#message">Contact</a></li> -->
-			 	  <!-- <li><a href="/">Digital Mind</a></li>		 		 -->
-			 	</ul>
-			 </nav>
-		 </div>		
-	 </div>
-</div>	 
-</header>
+<body class="portfolio">
 
-<div id="upper-bg">
-<div id="contact">
-<div class="row">
-    <div class="large-4 columns" id="signature">
-    	<img src="/static/portfolio/img/signature.png" style="width: 180px;"/>
-	</div>
-    <div class="large-8 columns">
-    	<h1>Ray Alez <br/>
+  <!-- Header -->
+  <div class="header">
+  <div class="row">
+    <div class="large-4 small-4 columns">
+      <img class="signature" src="/static/img/signature-glow.png" />
+    </div>
+    <div class="large-8 small-8 columns">
+      <h1>Ray Alez <br/>
     	Django Web Developer</h1>
-    	<!-- <h2>Look no further! -->
-    	<!-- I will help you create the project you want</h2> -->
-    	<!-- <a href="#message" class="button">Let's talk →</a><\!-- ⟶ -\-> -->
-    	<!-- <p>or get in touch via email, skype, facebook or google+</p> -->
+      <a class="small button" href="#about">Let's talk!</a>
     </div>
-</div>
-</div>
-<div id="skills-arrow"></div>
-</div>
+  </div>
+  </div>
 
 
-<!-- SKILLS -->
-
-<div id="skills">
-<div class="row">
-    <div class="large-2 columns" id="skills-brain-logo">
-    	<img src="/static/portfolio/img/logo2.png"/>
+  <!-- Skills -->
+  <div class="skills" id="skills">
+    <div class="row">
+      <div class="large-2 small-2 columns">
+    	<img src="/static/img/logo2.png"/>
+      </div>
+      <div class="large-10 small-10 columns">
+	<div class="row" id="main-skills">
+	  <table style="width:100%;">
+	    <tr>
+	      <td>[Backend]</td>
+	      <td>Python, Django, PostgreSQL, RESTful APIs</td>
+	    </tr>
+	    <tr>
+	      <td>[Frontend]</td>
+	      <td>HTML5, CSS, Sass, jQuery, Foundation</td>
+	    </tr>
+	    <tr>
+	      <td>[DevOps]</td>
+	      <td>Linux, Nginx, Docker, Redis</td>
+	    </tr>
+	    <tr>
+	      <td>[Business skills]</td>
+	      <td>Design and development, product launches, marketing, traction, SEO.</td>
+	    </tr>
+	    <tr>
+	      <td>[Other Interests]</td>
+	      <td>Technical writing, Deep Learning, Computer Graphics.</td>
+	    </tr>	  	  
+	  </table>
+	  <!--  Travis CI?, -->
+	  <!--  Gunicorn, WSGI, AWS -->
+	  <!-- MongoDB -->
 	</div>
-    <div class="large-10 columns">
-      <div class="row" id="main-skills">
-	<table style="width:100%;">
-	  <tr>
-	    <td>[Backend]</td>
-	    <td>Python, Django, PostgreSQL, RESTful APIs</td>
-	  </tr>
-	  <tr>
-	    <td>[Frontend]</td>
-	    <td>HTML5, CSS, Sass, jQuery, Foundation</td>
-	  </tr>
-	  <tr>
-	    <td>[DevOps]</td>
-	    <td>Linux, Nginx, Docker, Redis</td>
-	  </tr>
-	  <tr>
-	    <td>[Tools]</td>
-	    <td>Emacs, Git, IPython</td>
-	  </tr>	  
-	</table>
-	<!--  Travis CI?, -->
-	<!--  Gunicorn, WSGI, AWS -->
-	<!-- MongoDB -->
-    </div>
         <div class="row" id="other-skills">
         </div>
-    </div>
-</div>
-</div>
-
-
-  <style>
-    .project h2 {
-    text-align:left!important;
-    }
-    .project-image {
-    width:411px;
-    height:231px;
-    overflow:hidden!important;
-    }
-    .project p {
-    color:#3d454b;
-    font-size:21px;
-    }
-    .project a {
-    color:#f76300;
-        font-size:21px;
-    }
-  </style>
-
-<div id="projects">
-<div class="row">
-  <h2>Projects</h2>
-  
-  <br/>
-  <div id="thumbnails">
-    <a href="#" id="ui-carousel-next"></a>
-    <a href="#" id="ui-carousel-prev"></a>		
-
-    <div id="container">
-      <div id="carousel">
-
-	<div class="project-image">	
-	  <a href="http://lumiverse.io/">
-	    <img src="/static/portfolio/img/projects/lumiverse2.png"/></a>
-	</div>
-
-	<div class="project-image">	
-	  <a href="http://fictionhub.io/">
-	    <img src="/static/img/projects/fictionhub-frontpage.png"/></a>
-	</div>
-	<!-- 
-	<div class="project-image">	
-	  <a href="http://chat.co/">
-	    <img src="/static/portfolio/img/projects/chat.png"/></a>
-	</div>
-	-->
-	<div class="project-image">	      
-	  <a href="http://orangemind.io/">
-	    <img src="/static/img/projects/OM2.png"/></a>
-	</div>
-
       </div>
     </div>
   </div>
-</div>
-</div>
-
-<style>
-  .project-image {
-  width:640;
-  height:360;
-  overflow:hidden!important;
-  border: 4px solid white!important;
-  border-radius: 4px;      
-  }
-
-  .project-image img {
-  width:100%!important;
-  margin:0!important;
-  }
 
 
-  #carousel-desc {
-  height: 170px!important;
-  }
-  .project-description {
-  height: 170px!important;
-  }
+  <div class="projects">
+    <div class="row">
+      <h2>Projects</h2>
 
-  .project-description h3 {
-  font-size:21px;
-  }
-  .project-description p {
-    font-size:18px;
-  }
+      <!-- Projects -->
+      <div class="tabs-panel is-active" id="projects">
 
-  .project-description p a {
-  font-size:18px;
-  }
 
-</style>
-
-<div id="projects-arrow"></div>
-<div id="description-bg">
-<div class="row">
-<div class="large-12 columns">
-  <div id="description">	
-    <div id="description-text">	
-      <div id="container-desc">
-	<div id="carousel-desc">
-
-	  <div class="project-description">
-	    <h3>lumiverse</h3>
+	<!-- Lumiverse -->
+	<article style="">
+	  <div class="screenshot">
+	    <a href="http://lumiverse.io">		
+	      <img src="/static/img/projects/lumiverse2.png">
+	    </a>
+	  </div>
+	  <div class="description">
+	    <h2>
+	      <a href="http://lumiverse.io">lumiverse</a>
+	      <a href="https://github.com/raymestalez/lumiverse">
+		<img src="/static/img/github-icon.png" class="github-logo">
+	      </a>	      
+	    </h2>
+	    <hr/>
 	    <p>The best place to publish, discover, and discuss great educational videos.</p>
-
 	    <p>320 users, 98k pageviews in the first month after launch.</p>
 
-	    <br/>
-	    <a href="https://github.com/raymestalez/lumiverse"><img src="/static/portfolio/img/github-icon.png" style="width: 70px;"></a>
-	  </div>							
+	  </div>
+	  <div class="clearfix">
+	  </div>
+	</article>	    
 
-	  <div class="project-description">
-	    <h3>fictionhub</h3>
+	<!-- Fictionhub -->
+	<article style="float:right;margin-right:0;">
+	  <div class="screenshot">
+	    <a href="http://fictionhub.io">
+	      <img src="/static/img/projects/fictionhub-frontpage.png">
+	    </a>
+	  </div>
+	  <div class="description">
+	    <h2>
+	      <a href="http://fictionhub.io">fictionhub</a>
+	      <a href="https://github.com/raymestalez/fictionhub">
+		<img src="/static/img/github-icon.png" class="github-logo">
+	      </a>	      
+	      
+	    </h2>
+	    <hr/>
 	    <p>A platform for publishing and reading fiction.</p>
 
-	    <p>734 users, 812 stories, 114k views</p>
+	    <p>1000+ users, 812 stories, ~100 views/day.</p>	    
+	    <p style="margin-bottom: 0;"> Also check out related projects:<br/>
+	      <ul>
+		<li>
+		  <a href="http://writingstreak.io">Writing Streak</a>
+		  - a tool that helps people to write regularly <br/>
+		</li>
+		<li>
+		  <a href="http://rationalfiction.io">Rational Fiction</a>
+		  - a website for publishing <a href="http://rationalfiction.io/story/rational-fiction">rational</a> fiction
+		</li>
+	      </ul>
+	    </p>
+	  </div>
 
-	    <br/>
-	    <a href="https://github.com/raymestalez/fictionhub"><img src="/static/portfolio/img/github-icon.png" style="width: 70px;"></a>
-	  </div>							
-	  <!-- 
-	  <div class="project-description">
-	    <h3>Hacker Chat</h3>
-	    <p>A platform for chats and communities.</p>
+	  <div class="clearfix">
+	  </div>
+	</article>
 
-	    <p>320 users, 98,000 pageviews in the first month after launch.</p>
-	    
-	    <a><img src="/static/portfolio/img/github-icon.png" style="width: 70px;"></a>
-	  </div>							
-	  -->
 
-	  <div class="project-description">
-	    <h3>Orange Mind</h3>
-	    <p>My blog about rationality.</p>
 
-	    <p>412 subscribers, 46k pageviews.</p>
+	<!-- Digital Verse -->
+	<article style="float:left;margin-right:0; width:100%;">
+	  <div class="screenshot" style="height: auto;
+					 max-height: none;">
+	    <a href="http://digitalverse.io">
+	      <img src="/static/img/projects/dv.png">
+	    </a>
+	  </div>
+	  <div class="description" style="height:180px;">
+	    <h2>
+	      <a href="http://digitalverse.io">Digital Verse</a>
+	      <a href="https://github.com/raymestalez/digitalverse">
+		<img src="/static/img/github-icon.png" class="github-logo">
+	      </a>	      
+	    </h2>
+	    <hr/>
+	    <p>A website where I publish my tutorials about computer graphics.</p>
+	    <p> Also check out our awesome
+	      <a href="http://digitalverse.io/forum/">community forum.</a></p>
+	  </div>
 
-	    <br/>
-	    <a href="https://github.com/raymestalez/orangemind">
-	      <img src="/static/portfolio/img/github-icon.png" style="width: 70px;"></a>
-	  </div>							
+	  <div class="clearfix">
+	  </div>
+	</article>
+	
 
-	</div>
+	<!-- DigitalMind -->
+	<article style="/*width:100%;margin-right:0;*/
+			">
+	  <div class="screenshot">
+	    <a href="http://blog.digitalmind.io">		
+	      <img src="/static/img/projects/dm3-cropped.png"> <!-- -crop -->
+	    </a>
+	  </div>
+	  
+	  <div class="description" style="/*height: 180px;*/">
+	    <h2>
+	      <a href="http://blog.digitalmind.io"> Digital Mind </a>
+	      <a href="https://github.com/raymestalez/digitalmind">
+		<img src="/static/img/github-icon.png" class="github-logo">
+	      </a>	      
+	    </h2>
+
+	    <hr/>
+	    <p style="margin-bottom:0;">My blog where I write articles about web development, programming, Computer Science, Artificial Intelligence, Machine Learning, and math.
+	      Check out:<br/>
+	      <ul>
+		<li>
+		  <a href="http://blog.digitalmind.io/post/ai-writes-hpmor">Deep Writing</a>
+		  - Artificial neural network trained to write Harry Potter fanfiction. <br/>
+		</li>
+		<li>
+		  <a href="http://blog.digitalmind.io/post/iris">Multiclass Classification with Keras</a>
+		  - introductory Deep Learning tutorial.<br/>
+		</li>
+		<li>
+		  <a href="http://blog.digitalmind.io/post/artificial-intelligence-resources">AI resources</a>
+		  - list of the best resources for getting started with AI and Deep Learning.
+		</li>
+	      </ul>
+	    </p>
+
+	  </div>
+	  <!-- <img src="/static/img/square-brain.png"> -->
+	  <div class="clearfix">
+	  </div>
+	</article>
+
+	
+	<!-- OrangeMind -->
+	<article style="/float:right;margin-right:0;">
+	  <div class="screenshot">
+	    <a href="http://orangemind.io/browse">		
+	      <img src="/static/img/projects/OM2.png">
+	    </a>
+	  </div>
+	  
+	  <div class="description" style="/height: 180px;">
+	    <h2>
+	      <a href="http://orangemind.io"> Orange Mind </a>
+	      <a href="https://github.com/raymestalez/orangemind">
+		<img src="/static/img/github-icon.png" class="github-logo">
+	      </a>	      
+	    </h2>
+	    <hr/>
+	    <p>My blog where I write essays on rationality, creativity, productivity, technology, startups, and science.</p>
+	    <p style="margin-bottom: 0;"> Start with:<br/>
+	      <ul>
+		<li>
+		  <a href="http://orangemind.io/post/what-are-cognitive-biases">What are cognitive biases?</a>
+		</li>
+		<li>
+		  <a href="http://orangemind.io/post/comedy-theory">Comedy Theory</a>
+		</li>
+		<li>
+		  <a href="http://orangemind.io/post/rational-fiction">Rational Fiction</a>
+		</li>
+		<li>
+		  <a href="http://orangemind.io/post/habits">Using tracking to develop daily habits.</a>
+		</li>
+		<!-- http://orangemind.io/post/story-structure -->
+	      </ul>
+	  </div>
+	  <!-- <img src="/static/img/square-brain.png"> -->
+	  <div class="clearfix">
+	  </div>
+	</article>
+
+
       </div>
     </div>
-  </div>
-</div>	
-</div>	
-</div>	
-</div>
-
-<div id="lower-bg">
-<!-- TESTIMONIALS -->
-<div id="testimonials">
-<div class="row">
-	<div id="quote-icon">
-    	<img src="/static/portfolio/img/quote-icon.png"/>
-	</div>
-	<p>Not many developers are as passionate about their craft as Ray Alez. <br />
-	I have been working with many developers from all around the world, <br />
-	and Ray Alez is one of the best of them.</p>
-	<hr id="testimonialsHr" />
-	<span id="author">Rommy Arella</span>
-	<span id="company">@Candeed Creatives</span>
-</div>
-</div>
+  </div> <!-- End row projects -->
 
 
-<div id="about">
-<div class="row" >
-  <h2>About</h2>
-
-  <p>My name is Ray Alez.</p>
-
-  <p> I am clever, motivated, creative,
-    obsessed with technology and just generally awesome =)</p>
-  
-  <!-- <p>I build websites that look great, are  become popular and successful.</p> -->
-  <!-- beautiful, convenient -->
-
-  <p>Besides web development, I am good at building startups and writing.</p>
-  
-  <p>I also spend a lot of my time studying AI and Machine Learning.</p>
+<div class="about-bg">
+  <div class="about" id="about">
+    <div class="row" >
+      <h2>About</h2>
+      <p>Hello! My name is Ray.<br/>
+	I am good at designing and developing online projects that look awesome, work well, and attract a lot of users. </p>
+      <p> All the projects above have been invented, designed, and developed by me, from idea to launch. </p>
+      <p>I am a full stack web developer, specializing in Django.  Also, as you can see, I have a wide variety of online-business-related skills, and I enjoy using all of them. I know how to develop a business idea, turn it into a complete website, and use online marketing to gain traction. </p>
 
 
-
-  <!-- building startups startups and Machine Learning.</p> -->
-  <!--  writing science fiction.
-    I also love studying everything I can about AI and Machine learning. -->
-	
-  <p>Check out my <a href="https://github.com/raymestalez">github profile</a>, and send me a message at raymestalez@gmail.com.</p>
-  <!-- and read my <a>resume</a> -->
-
-    
-  <!-- <p>My email is <br/> -->
-  <!--   raymestalez@gmail.com</p> -->
-
-  
-
-  <!-- 
-  <p>[Github]</p>
-  <div id="icons">
-    <a href="http://github.com/raymestalez">
-      <img src="/static/portfolio/img/github-icon.png"/>
-    </a>
-  </div>
-
-
-  <p>[Resume]</p>
-  <img src="/static/portfolio/img/resume.png" style="width: 320px;"/>
-
-	<p>Besides programming I have passion for entreneurship, online business and blogging.<br />
-	I am constantly working on my own projects and developing a startup.<br/>
-	(hence I understand business, online marketing and SEO)<br/>
-	Whenever I have some free time I learn everything I can about AI, Machine learning and lisp.<br/>
-	</p>
-
-	<p>Let's discuss how I can help you with your project<br/>
-	- just <a href="#message">send me a message</a> and say hi!</p>
+      <!-- Startup -->
+      <!-- 
+      <p>I am looking for an opportunity to work on meaningful projects that will allow me to further develop my skills. I want to work in a small, driven, intelligent team, preferably a startup. </p> 
  -->
-</div>
-</div>
 
+      <!-- Clients -->
+      <p></p>
+      <p>   If you're looking for help with your next online project - send a me message to
+	<span class="orange">raymestalez@gmail.com</span> and let's talk!
+
+	<hr/>
+      <p>You can also find me over here:</p>
+      <div class="social-media">
+	<a href="https://github.com/raymestalez"><i class="fa fa-github"></i></a>
+	<a href="https://www.youtube.com/user/raymestalez"><i class="fa fa-youtube-square"></i></a>		
+
+	<a href="https://news.ycombinator.com/user?id=rayalez"><i class="fa fa-hacker-news"></i></a>
+	<a href="https://www.reddit.com/u/raymestalez/?sort=top"><i class="fa fa-reddit"></i></a>	    
+	<a href="https://medium.com/@rayalez/"><i class="fa fa-medium"></i></a>
+	<a href="https://twitter.com/RaymestAlez"><i class="fa fa-twitter"></i></a>
+	<a href="https://www.facebook.com/rayalez/"><i class="fa fa-facebook"></i></a>
+
+	
+    </div>
+  </div>
+</div>
 
 </div>
 
 <footer>
-&nbsp;
+  &nbsp;
 </footer>
 
 <script>
-	$(document).ready(function(){
-	});
-</script>
-
-<script src="/static/portfolio/js/carousel/lib/jquery-1.7.1.js"></script>
-<script src="/static/portfolio/js/carousel/lib/jquery.ui.core.js"></script>
-<script src="/static/portfolio/js/carousel/lib/jquery.ui.widget.js"></script>
-<script src="/static/portfolio/js/carousel/lib/jquery.ui.rcarousel.js"></script>
-
-<script>
-$(document).ready(function(){
-	jQuery(function($) {
-		$( "#carousel").rcarousel({
-			visible:1,
-			step: 1,
-			width: 640,
-			height: 360
-		});
-
-		$( "#carousel-desc").rcarousel({
-			visible:1,
-			step: 1,
-			width: 640,
-			height: 80			
-		});
-		
-		$( "#ui-carousel-next" )
-			.add( "#ui-carousel-prev" )
-			.hover(
-				function() {
-					$( this ).css( "opacity", 0.7 );
-				},
-				function() {
-					$( this ).css( "opacity", 1.0 );
-				}
-			);					
-	});
-});	
+  $(document).ready(function(){
+  });
 </script>
 
 </body>
