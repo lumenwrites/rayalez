@@ -276,3 +276,9 @@ td {
 .portfolio .social-media i {
     color: rgba(255, 255, 255, 0.64);
 }    
+
+.portfolio .fa-github {
+    color: #22282c;
+    font-size: 32px;
+
+}
