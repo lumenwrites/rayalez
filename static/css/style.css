@@ -113,7 +113,8 @@ article {
     border-radius: 3px;
 
     width: calc(50% - 20px);
-    width: calc(50% - 10px);    
+    width: calc(50% - 10px);
+    width: calc(33.33% - 20px);        
     float: left;
     margin-right: 20px;
     padding: 0;
@@ -131,6 +132,7 @@ article {
     width: 100%;
     padding: 20px;
     height: 320px;
+    height: 340px;    
     
     padding-top: 10px;
 }
