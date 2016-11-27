@@ -45,6 +45,10 @@ article h2 a {
     color: #3d454b;
 }
 
+/* helpers */
+.right {
+    float:right;
+}
 /* Menu */
 .main-menu {
     float:right;
